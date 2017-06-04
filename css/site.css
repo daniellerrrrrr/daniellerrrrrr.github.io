@@ -106,8 +106,29 @@ h2{
   /*display: block;*/
   /*height: 30rem;*/
   width: 100%;
+  opacity: 0.85;
+  transition: 0.3s linear;
 }
+
+.headerImg:hover{
+  /*text-align: center;*/
+  /*display: block;*/
+  /*height: 30rem;*/
+  opacity: 1;
+}
+
 
 .project{
   margin: 0 19.5rem 0;
 }
+
+/*info section */
+
+h4{
+text-align: center;
+}
+
+.infoContainer{width:60%; margin:0 auto;}
+.column-1 {float: left; width: 33%; }
+.column-2{ float: right; width: 33%; }
+.column-3{ display: inline-block; width: 33%; }
