@@ -3,35 +3,51 @@
 ::selection {background: #ff003d}
 
 ::-moz-selection {background: #ff003d}
+html{
+  padding: 0;
+  margin:0;
+  height:100%;
+}
 
 body{
   font-family: 'Work Sans', sans-serif;
-  font-size: 400;
+  font-weight: 400;
   color: #000;
+  padding: 0;
+  margin:0;
+}
+
+a{
+  text-decoration: none;
 }
 
 .intro{height:90vh}
 
+/*
 .me {padding: 10% 0 0 10%}
+*/
+
 
 h1{
   font-size: 6.5em;
-  font-weight: 600;
+  font-weight: 700;
   margin: 0;
+  text-transform: lowercase;
 }
+
+.me{padding: 10rem 15rem 0;}
 
 .me p{
   font-size: 1.3rem;
   line-height: 1.5;
-  margin: 0;
+  margin-top: 0;
 }
 
-.links{padding: 5% 0 0 10%}
+.links{padding: 3rem 15rem 0;}
 
 .links a{
   font-weight: 700;
   font-size: 2em;
-  text-decoration: none;
   color: #000;
   transition: 0.2s linear;
 }
@@ -40,7 +56,7 @@ h1{
   text-shadow: 0.18rem 0 0.06rem #ff7e9d, -0.18rem 0 0.06rem #66f1ff;
 }
 
-.links ul{
+ul{
   list-style: none;
   margin:0;
   padding:0;
@@ -88,7 +104,7 @@ h1{
 }
 
 .header{
-  margin: 7rem 25rem 0;
+  margin: 7rem 20rem 0;
 }
 
 h2{
@@ -97,9 +113,22 @@ h2{
   position:relative;
   z-index: 100;
   margin-top: -4rem;
+  margin-left: 15rem;
+  margin-bottom: 0;
+  text-transform: lowercase;
+}
+
+h6{
+  font-size: 4em;
+  font-weight: 600;
+  position:relative;
+  z-index: 100;
+  margin-top: -4rem;
   margin-left: 19.5rem;
   margin-bottom: 0;
+  text-transform: lowercase;
 }
+
 
 .headerImg{
   /*text-align: center;*/
@@ -117,18 +146,57 @@ h2{
   opacity: 1;
 }
 
+/*
+.project{margin: 0 19.5rem 0;}*/
 
-.project{
-  margin: 0 19.5rem 0;
-}
+.project{margin: 0 15rem 0;}
 
 /*info section */
 
 h4{
-text-align: center;
+margin-bottom: 0.75rem;
+text-transform: uppercase;
+/*text-align: center;*/
 }
 
-.infoContainer{width:60%; margin:0 auto;}
-.column-1 {float: left; width: 33%; }
-.column-2{ float: right; width: 33%; }
+.infoContainer{width:75%; margin:0 auto 4.5rem;}
+.column-1 {float: left; width: 39%; }
+.column-2{ float: right; width: 27%; }
 .column-3{ display: inline-block; width: 33%; }
+
+h3{
+  font-size: 2em;
+  margin-bottom: 0px;
+  clear: both;
+  text-transform: lowercase;
+}
+
+.footer{
+  width:100%;
+  position:relative;
+  bottom:0;
+  margin-top:5rem;
+  text-align: center;
+  color: #fff;
+  background-color: #000;
+  padding:1.5rem 0 2rem;
+}
+
+h5{
+  text-transform: lowercase;
+  font-size:2.2rem;
+  margin: 0.5rem 0 0.7rem;
+}
+
+.footer ul li{
+  display: inline;
+}
+
+.footer a{
+  color: #fff;
+  /*transition: 0.2s linear;*/
+}
+
+/* .footer a:hover{
+  text-decoration: line-through;
+} */
