@@ -389,3 +389,17 @@ color: #555555;
 
 b{text-transform: uppercase;}
 .section b{text-transform: none;}
+
+.gall{
+  width:100%;
+  margin:2rem 0 2rem;
+  overflow: hidden;
+}
+.gallImg{
+  width:100%;
+}
+
+.blurb{
+  font-size: 1.8em;
+  line-height: 1.3;
+}
