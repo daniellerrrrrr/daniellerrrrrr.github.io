@@ -26,6 +26,8 @@ a{text-decoration: none;}
 */
 
 
+
+
 h1{
   font-size: 6.5em;
   font-weight: 700;
@@ -33,15 +35,16 @@ h1{
   text-transform: lowercase;
 }
 
-.me{padding: 10rem 15rem 0;}
 
-.me p{
+.me{padding: 15rem 0 0;}
+
+.section p{
   font-size: 1.3rem;
   line-height: 1.5;
   margin-top: 0;
 }
 
-.links{padding: 3rem 15rem 0;}
+.links{padding: 3rem 0 0;}
 
 .links a{
   font-weight: 700;
@@ -50,7 +53,7 @@ h1{
   transition: 0.2s linear;
 }
 
-.links a:hover{text-shadow: 0.18rem 0 0.06rem #ff7e9d, -0.18rem 0 0.06rem #66f1ff;}
+/*.links a:hover{text-shadow: 0.18rem 0 0.06rem #ff7e9d, -0.18rem 0 0.06rem #66f1ff;}*/
 
 ul{
   list-style: none;
@@ -88,16 +91,22 @@ ul{
 
 
 /* project pages */
+/*
+@media screen and (min-width:1600){
+  .container{
+    width: 75%;
+  }
+}
+*/
 
-@media query (min-width:1700){
+
 .container{
-  width:100rem;
-}
-}
+margin: 0 20rem 0;}
 
-.container{margin:auto;}
+/*.header{margin: 7rem 20rem 0;}*/
 
-.header{margin: 7rem 20rem 0;}
+.header{margin: 7rem 5rem 0;}
+
 
 h2{
   font-size: 6em;
@@ -105,7 +114,7 @@ h2{
   position:relative;
   z-index: 100;
   margin-top: -4rem;
-  margin-left: 15rem;
+/*  margin-left: 15rem;*/
   margin-bottom: 0;
   text-transform: lowercase;
 }
@@ -141,7 +150,7 @@ h6{
 /*
 .project{margin: 0 19.5rem 0;}*/
 
-.project{margin: 0 15rem 0;}
+.project{margin: 0;}
 
 /*info section */
 
@@ -190,8 +199,13 @@ h5{
 
 /* preview grid */
 
+/*.work{
+  margin: 2.5rem 15rem;
+  padding:1rem;
+}*/
+
 .work{
-  margin: 0 15rem 0;
+  margin: 0 15rem;
 }
 
 .column-1of2{
@@ -203,9 +217,26 @@ h5{
   float:right;
   width:50%;
 }
+/*
+.column-1of4{
+  float: left;
+  width:25%;
+}
+.column-2of4{
+  float:left;
+  width:25%;
+}
+.column-3of4{
+  float:left;
+  width:25%;
+}
+.column-4of4{
+  float:left;
+  width:25%;
+}*/
 
 .workImg{
-  width:80%;
+  width:100%;
   margin:0 auto;
   display: block;
 }
