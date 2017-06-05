@@ -17,9 +17,7 @@ body{
   margin:0;
 }
 
-a{
-  text-decoration: none;
-}
+a{text-decoration: none;}
 
 .intro{height:90vh}
 
@@ -52,9 +50,7 @@ h1{
   transition: 0.2s linear;
 }
 
-.links a:hover{
-  text-shadow: 0.18rem 0 0.06rem #ff7e9d, -0.18rem 0 0.06rem #66f1ff;
-}
+.links a:hover{text-shadow: 0.18rem 0 0.06rem #ff7e9d, -0.18rem 0 0.06rem #66f1ff;}
 
 ul{
   list-style: none;
@@ -99,13 +95,9 @@ ul{
 }
 }
 
-.container{
-  margin:auto;
-}
+.container{margin:auto;}
 
-.header{
-  margin: 7rem 20rem 0;
-}
+.header{margin: 7rem 20rem 0;}
 
 h2{
   font-size: 6em;
@@ -188,15 +180,38 @@ h5{
   margin: 0.5rem 0 0.7rem;
 }
 
-.footer ul li{
-  display: inline;
-}
+.footer ul li{display: inline;}
 
-.footer a{
-  color: #fff;
-  /*transition: 0.2s linear;*/
-}
+.footer a{color: #fff; /*transition: 0.2s linear;*/}
 
 /* .footer a:hover{
   text-decoration: line-through;
 } */
+
+/* preview grid */
+
+.work{
+  margin: 0 15rem 0;
+}
+
+.column-1of2{
+  float: left;
+  width:50%;
+}
+
+.column-2of2{
+  float:right;
+  width:50%;
+}
+
+.workImg{
+  width:80%;
+  margin:0 auto;
+  display: block;
+}
+
+.work:after {
+    content:"";
+    display: table;
+    clear: both;
+}
