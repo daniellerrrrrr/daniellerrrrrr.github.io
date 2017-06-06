@@ -543,3 +543,54 @@ margin-bottom:4rem;
 
   h4{font-size: 1.75em;}
 }
+
+@media (max-width:600px){
+  .container{
+    margin: 0 3rem 0;
+  }
+
+  h1{
+    font-size: 2.2em;
+  }
+
+  .section p{
+    font-size: 1.2em;
+  }
+
+.links{
+  text-align: center;
+}
+  .links a{
+    font-size: 1.75em;
+  }
+  .column-1of4{
+    float: none;
+    width:70%;
+    margin: 2rem auto 0;
+  }
+  .column-2of4{
+    float: none;
+    width:70%;
+    margin: 4rem auto 0;
+  }
+  .column-3of4{
+    float: none;
+    width:70%;
+    margin: 4rem auto 0;
+  }
+  .column-4of4{
+    float: none;
+    width:70%;
+    margin: 4rem auto 6rem;
+  }
+
+  .work2{margin-top: 3rem;}
+  .workTitle{opacity: 1}
+
+
+  .workTitle h3{
+    font-size: 2.5em;
+  }
+
+  h4{font-size: 1.5em;}
+}

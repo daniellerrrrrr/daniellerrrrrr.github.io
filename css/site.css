@@ -471,25 +471,17 @@ margin:0 auto;
 
 
 @media (max-width:1600px){
-  .container{
-    margin: 0 20rem 0;
-  }
+  .container{margin: 0 20rem 0;}
 }
 
 @media (max-width:1200px){
-  .container{
-    margin: 0 13rem 0;
-  }
+  .container{margin: 0 13rem 0;}
 
-  .containerImg{
-    margin: 4.2rem 13rem;
-  }
+  .containerImg{margin: 4.2rem 13rem;}
 
-  .containerHeader{
-    margin: 0 14.5rem 0;
-  }
+  .containerHeader{margin: 0 14.5rem 0;}
 
-.header{margin: 4rem 0 0;}
+  .header{margin: 4rem 0 0;}
 
   #navigation{
     top:3rem;
@@ -529,9 +521,11 @@ margin:0 auto;
 
 
 @media (max-width:800px){
-  h2{font-size: 4em;
-  margin-left: -2rem;
-  margin-top: -2.6rem;}
+  h2{
+    font-size: 4em;
+    margin-left: -2rem;
+    margin-top: -2.6rem;
+  }
 
   #navigation{
     position:absolute;
@@ -545,32 +539,67 @@ margin:0 auto;
     left:2rem;
   }
 
-.container{
-  margin: 0 10rem 0;
+  .container{margin: 0 10rem 0;}
 
+  .containerImg{margin: 0 10rem 0;}
+
+  .containerHeader{margin: 0 10rem 0;}
+
+  .header{margin-top:5.5rem;}
+
+.info p{
+  margin-bottom: 2rem;
+}
+  .column-1of2{
+    float: none;
+    width:100%;
+  }
+
+  .column-2of2{
+    float: none;
+    width:100%;
+    margin: 1.1% 0 1% 0;
+  }
+
+
+      .column-1of3{
+        float: none;
+        width:100%;
+      }
+
+      .column-2of3{
+        float:right;
+        width:100%;
+        margin: 1.1% 0 1% 0%;
+      }
+
+      .column-3of3{
+        float:right;
+        width:100%;
+        margin: 1.1% 0 1% 0%;
+      }
 }
 
-.containerImg{
-  margin: 0 10rem 0;
 
-}
-    .containerHeader{
-      margin: 0 10rem 0;
+@media (max-width:600px){
+    .container{margin: 0 1rem 0;}
+
+    .containerImg{margin: 0 1rem 0;}
+
+    .containerHeader{margin: 0 1rem 0;}
+
+    #toTop{
+      position: relative;
+      text-align: center;
+      margin: 10rem auto 0;
+      padding: 1rem;
+      display: block;
     }
 
-    .header{
-      margin-top:5.5rem;
-    }
-
-    .column-1of2{
-      float: none;
-      width:100%;
-    }
-
-    .column-2of2{
-      float: none;
-      width:100%;
-      margin: 1.1% 0 1% 0;
+    h2{
+      font-size: 4em;
+      margin-left:0;
+      margin-top: -2.6rem;
     }
 
 

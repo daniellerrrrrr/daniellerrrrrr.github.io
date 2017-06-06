@@ -2,24 +2,131 @@
 <html lang ="en">
 <head>
 <meta charset="utf-8"/>
-<title>Danielle Ragas</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<link rel="stylesheet" href="css/site.css">
+<title>Danielle Ragas</title>
+<link rel="stylesheet" href="css/siteNoLL.css">
+<link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/scrolloverflow.js"></script>
+<script type="text/javascript" src="js/jquery.fullPage.js"></script>
 </head>
 
 
+
 <body>
+<div id="fullpage">
+  <div class="section"> <!-- home section -->
+    <div class="container">
+      <h1>danielle ragas.</h1>
+      <p>A design student from Vancouver.<br> I love art, media, video games, and <span class="faves"></span></p>
 
-<!-- landing page -->
-<div class="container">
-  <div class="section">
+        <div class="links">
+          <ul>
+            <li><a href="#work">work</a></li>
+            <li><a href="#about">about</a></li>
+          </ul>
+        </div>
+    </div> <!-- end container -->
+  </div> <!-- end home section, 1 -->
 
-  <div class="me">
-    <h1>under construction!</h1>
-    <p>check out <a href="http://www.danielleragas.com/">danielleragas.com</a> in the meantime.</p>
-  </div>
-</div>
-</div>
+  <div class="section"> <!-- work section -->
+    <div class="container2">
+      <div class="work2">
+        <div class="column-1of4">
+          <a href="beep.html">
+          <img src="img/beepPreview.png" class="workImg" alt="Beep preview image">
+          </a>
+            <div class="workTitle">
+              <h3>Beep</h3>
+              <h4>video game design 2017</h4>
+            </div>
+        </div>
+
+        <div class="column-2of4">
+          <a href="amorphous.html">
+          <img src="img/amorphousPreview.png" class="workImg" alt="Amorphous preview image">
+          </a>
+            <div class="workTitle">
+              <h3>Amorphous</h3>
+              <h4>3D animation 2016</h4>
+            </div>
+        </div>
+
+        <div class="column-3of4">
+          <a href="abm.html">
+          <img src="img/abmPreview.png" class="workImg" alt="ABM preview image">
+          </a>
+            <div class="workTitle">
+              <h3>ABM marketing</h3>
+              <h4>Graphic Design and Video 2016</h4>
+            </div>
+        </div>
+
+        <div class="column-4of4">
+          <a href="illustration.html">
+          <img src="img/illustrationPreview.png" class="workImg" alt="Illustration preview">
+          </a>
+            <div class="workTitle">
+              <h3>Illustration</h3>
+              <h4>personal artwork</h4>
+            </div>
+        </div>
+      </div> <!-- end work container -->
+    </div> <!-- end container -->
+  </div> <!-- end work section, 2 -->
+
+  <div class="section"> <!-- about section -->
+    <div class="container">
+      <h1>Hi!</h1>
+      <p>My name's Danielle. I am currently a fourth year student majoring in Interactive Arts and Technology at Simon Fraser University. I'm a hard working and passionate student, with a love for design, media, and illustration.</p>
+      <p>In my free time you can find me doodling in my sketchbook or playing video games.</p>
+      <p>Email me at <b>d.ragas@live.ca</b> if you want to talk!</p>
+
+        <div class="links">
+          <ul>
+            <li><a href="doc/DanielleRagas_resume.pdf">resume</a></li>
+            <li><a href="#work">work</a></li>
+            <li><a href="#home">back to top</a></li>
+          </ul>
+        </div>
+    </div><!-- end container -->
+  </div> <!--end about section, 3 -->
+
+</div> <!-- end full page -->
+
+
+<!-- full page -->
+<script type="text/javascript">
+    $(document).ready(function() {
+        $('#fullpage').fullpage({
+          anchors:['home','work','about'],
+          navigation:true,
+          scrollOverflow:true
+        });
+    });
+</script>
+
+<!-- typed -->
+<script src="js/typed.js"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', function(){
+      Typed.new('.faves', {
+        strings: ["taro bubble tea.", "Mass Effect.", "animated music videos.",
+            "Star Trek <i>and</i> Star Wars.", "Childish Gambino.",
+            "superhero movies.", "the colour blue.", "salmon sashimi."],
+        typeSpeed: 20,
+        loop:true,
+        showCursor:false,
+        shuffle: true,
+      	backDelay: 1800,
+        backSpeed: 0,
+        showCursor: true
+      });
+  });
+</script>
+
 
 
 </body>
