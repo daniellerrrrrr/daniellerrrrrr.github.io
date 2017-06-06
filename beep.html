@@ -16,7 +16,7 @@
 
 <div class="containerHeader">
   <div class="header">
-    <img src="img/beep1.png" class="headerImg" alt="Beep screenshot" >
+    <img data-original="img/beep1.png" class="headerImg" alt="Beep screenshot" >
   </div>
 
   <h2>beep</h2>
@@ -36,24 +36,70 @@
 </div>
 
 <div class="containerImg">
-  <img src="img/beep/beepa.png" class="gallImg">
+  <img data-original="img/beep/beepa.png" class="gallImg">
+
+  <div class="gall">
+    <div class="column-1of2">
+      <img data-original="img/beep/beepb.png" class="gallImg">
+    </div>
+
+    <div class="column-2of2">
+      <img data-original="img/beep/beepd.png" class="gallImg" >
+    </div>
+  </div>
 </div>
 
 <div class="container">
   <h3>Level Design</h3>
   <p>I was also responsible for designing several levels of the game. Together with my team, we planned out levels, built them in Unity, and then playtested them with different users. We refined and adjusted each level as we received feedback.</p>
+</div>
 
+<div class="containerImg">
+  <img data-original="img/beep/beepi.png" class="gallImg">
+
+  <div class="gall">
+    <div class="column-1of2">
+      <img data-original="img/beep/beepg.png" class="gallImg">
+    </div>
+
+    <div class="column-2of2">
+      <img data-original="img/beep/beeph.png" class="gallImg" >
+    </div>
+  </div>
+</div>
+
+<div class="container">
   <h3>Modelling and Animation</h3>
   <p>Our game was built using the Unity 3D Engine. First, we created models and art assets in Maya and Illustrator, and then we arranged them into the different levels in Unity. I was also responsible for modelling and rigging the different enemies, such as the cubes. Once the models were completed and textured, I brought them into Unity to animate walk cycles, run cycles, and various character animations.</p>
+</div>
+
+<div class="containerImg">
+  <div class="gall">
+    <div class="column-1of2">
+      <img data-original="img/beep/beepk.png" class="gallImg">
+    </div>
+
+    <div class="column-2of2">
+      <img data-original="img/beep/beepj.png" class="gallImg" >
+    </div>
+  </div>
+</div>
+
+<div class="container">
+    <h3>Trailer</h3>
+    <div class="fluid-video">
+      <iframe src="https://player.vimeo.com/video/212249428?byline=0&portrait=0" width="400" height="225" frameborder="0"></iframe>
+    </div>
+
+    <p>Trailer created by Josephine Ryu.</p>
+
+    <center><img data-original="img/beep/beepl.gif"></center>
+  </div>
 
   <!--
-  <h3>Trailer</h3>
-  <p></p>
   <h3>Reflection</h3>
   <p>text</p>
   -->
-
-</div> <!-- end container -->
 
 <a href="#top" id="toTop">to the top ^</a>
 
@@ -76,6 +122,14 @@ $(function() {
 });
 </script>
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-lazyload/7.2.0/lazyload.transpiled.min.js"></script>
+<script>
+	(function () {
+		var myLazyLoad = new LazyLoad({
+			threshold: 100
+		});
+	}());
+</script>
 
 
 </body>

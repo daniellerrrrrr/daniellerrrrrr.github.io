@@ -235,12 +235,14 @@ transition: 0.1s linear;
 
 .column-1of2{
   float: left;
-  width:50%;
+  width:49.2%;
+  margin: 1.1% 0 1% 0;
 }
 
 .column-2of2{
   float:right;
-  width:50%;
+  width:49.2%;
+  margin: 1.1% 0 1% 1.6%;
 }
 
 .work2{
@@ -293,16 +295,6 @@ transition: 0.1s linear;
 
 .desc{
   margin: 0;
-}
-
-.col1of2{
-  float: left;
-  width:60%;
-}
-
-.col2of2{
-  float:right;
-  width:30%;
 }
 
 #toTop {
@@ -360,7 +352,6 @@ color: #555555;
 
 .gall{
   width:100%;
-  margin:2rem 0 2rem;
   overflow: hidden;
 }
 .gallImg{
@@ -401,9 +392,41 @@ color: #555555;
 }
 
 .containerImg{
-  margin:0 20rem 0;
+  margin:4.2rem 20rem;
 }
 
 .containerHeader{
   margin:0 20rem 0;
+}
+
+.fluid-video {
+    height: 0;
+    padding-bottom: 56.3%;
+    position: relative;
+    margin-top:2rem;
+}
+
+.fluid-video > iframe {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+img {
+  display: block;
+  border: 0;
+  opacity: 0;
+}
+img:not(.initial) {
+  transition: opacity 10s;
+}
+img.initial,
+img.loaded,
+img.error {
+  opacity: 1;
+}
+img:not([src]) {
+  visibility: hidden;
 }
