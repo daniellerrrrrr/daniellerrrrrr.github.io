@@ -273,7 +273,7 @@ transition: 0.1s linear;
 .workImg{
   width:95%;
   margin:0 auto;
-  opacity: 0.80;
+  opacity: 0.70;
   transition: 0.3s linear;
 }
 
@@ -320,7 +320,7 @@ margin: 0 7rem 0;}
 }
 
 .workTitle{
-  opacity: 0;
+  opacity: 0.4;
   transition: 0.2s linear;
 }
 
