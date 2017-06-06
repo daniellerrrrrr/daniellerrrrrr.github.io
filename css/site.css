@@ -420,7 +420,7 @@ img {
   opacity: 0;
 }
 img:not(.initial) {
-  transition: opacity 10s;
+  transition: opacity 1s;
 }
 img.initial,
 img.loaded,
@@ -429,4 +429,8 @@ img.error {
 }
 img:not([src]) {
   visibility: hidden;
+}
+
+.spacer{
+margin-bottom:1.1rem;
 }
