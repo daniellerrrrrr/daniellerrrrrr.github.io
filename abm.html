@@ -9,14 +9,14 @@
 
   <div id="myName">danielle ragas<br>abm marketing</div>
   <div id="navigation">
-    <a href="">home</a>
-    <a href="">work</a>
-    <a href="about.html">about</a>
+    <a href="index.html">back to home</a>
+    <!-- <a href="indexhomefullpage2.html#work">work</a>
+    <a href="indexhomefullpage2.html#about">about</a> -->
   </div>
 
 <div class="containerHeader">
   <div class="header">
-    <img src="img/abm1.png" class="headerImg" alt="Amorphous screenshot" >
+    <img src="img/abm1.png" class="headerImg" alt="ABM Marketing header image" >
   </div>
 
   <h2>ABM Marketing</h2>
@@ -30,34 +30,81 @@
     <p><b>Tools</b> Adobe creative suite, audacity</p>
     <p><b>Position</b> Marketing Assistant</p>
   </div>
+</div>
 
+<div class="container">
   <h3>Videos</h3>
-  <p>At the beginning of the project, each of us came up with ideas and concepts for a story. I created a rough storyboard detailing the encounter of an astronaut with an alien. We settled on this story, and further revised it.</p>
+  <p>I animated 2 videos illustrating biotechnology concepts for the company's youtube channel. </p>
+</div>
 
+<div class="container">
+  <div class="column-1of2 spacerBig">
+    <div class="fluid-video">
+      <iframe width="1280" height="720" src="https://www.youtube.com/embed/ATSegvJEUkw?rel=0&amp;showinfo=0" allowfullscreen></iframe>
+    </div>
+  </div>
+
+  <div class="column-2of2 spacerBig">
+    <div class="fluid-video">
+      <iframe width="1280" height="720" src="https://www.youtube.com/embed/kJSsZMdA8Sk?rel=0&amp;showinfo=0" allowfullscreen></iframe>
+    </div>
+  </div>
+</div>
+
+<div class="container">
   <h3>Design Work</h3>
   <p>These images were used in promotional emails sent out to customers.</p>
+</div>
 
+<div class="containerImg">
+  <img data-original="img/abm/abmc.png" class="gallImg" alt="antibodies banner">
+
+  <div class="gall">
+    <div class="column-1of2">
+      <img data-original="img/abm/abmb.png" class="gallImg" alt="sequencing banner">
+  </div>
+
+    <div class="column-2of2">
+      <img data-original="img/abm/abma.png" class="gallImg" alt="cell lines banner">
+    </div>
+  </div>
+</div>
+
+<div class="container">
   <h3>Print Materials</h3>
   <p>During my time at ABM, I created a few report templates, e books, and manuals. These materials were used for internal use, as well as used by the scientists and distributed to customers</p>
+</div>
 
+<div class="containerImg">
+  <img data-original="img/abm/abmd.png" class="gallImg spacer" alt="report template">
+  <img data-original="img/abm/abme.png" class="gallImg" alt="crispr book">
+</div>
+
+<div class="container">
   <h3>Website Layouts</h3>
   <p>I helped to create mockups for a cell biology home page, as well as their knowledge base pages. I was also tasked with implementing these changes, using HTML and css with the dreamweaver program.</p>
+</div>
 
-  <!--
-  <h3>Reflection</h3>
-  <p>text</p>
-  -->
+<div class="containerImg">
+  <img data-original="img/abm/abmf.png" class="gallImg spacer white" alt="cell bio page">
 
-</div> <!-- end container -->
+  <div class="gall">
+    <div class="column-1of2">
+      <img data-original="img/abm/abmg.png" class="gallImg white" alt="knowledge base old">
+    </div>
+
+    <div class="column-2of2">
+      <img data-original="img/abm/abmh.png" class="gallImg white" alt="knowledge base new">
+    </div>
+  </div>
+</div>
 
 <a href="#top" id="toTop">to the top ^</a>
 
 <div class="footer">
   <ul>
-    <li><a href="indexhome.html">home</a></li>
-    <li><a href="">work</a></li>
-    <li><a href="about.html">about</a></li>
-    <li>&#x24B8; 2017 Danielle Ragas</li>
+    <li><a href="mailto:d.ragas@live.ca?Subject=Hi!" target="_top">d.ragas@live.ca</a></li>
+    <li>dr &#x24B8; 2017</li>
   </ul>
 </div>
 
@@ -71,7 +118,14 @@ $(function() {
 });
 </script>
 
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-lazyload/7.2.0/lazyload.transpiled.min.js"></script>
+<script>
+	(function () {
+		var myLazyLoad = new LazyLoad({
+			threshold: 0
+		});
+	}());
+</script>
 
 </body>
 </html>

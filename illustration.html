@@ -4,50 +4,101 @@
 <meta charset="utf-8"/>
 <title>Illustration</title>
 <link rel="stylesheet" href="css/site.css">
+<link rel="stylesheet" href="css/lightbox.css">
 </head>
 <body>
 
   <div id="myName">danielle ragas<br>illustration</div>
   <div id="navigation">
-    <a href="">home</a>
-    <a href="">work</a>
-    <a href="about.html">about</a>
+    <a href="index.html">back to home</a>
   </div>
 
 <div class="containerHeader">
   <div class="header">
-    <img src="img/illustration1.png" class="headerImg" alt="Amorphous screenshot" >
+    <img src="img/illustration1.png" class="headerImg" alt="illustration header image">
   </div>
 
   <h2>Illustration</h2>
 </div>
 
 <div class="container">
-  <p class="blurb">In my free time, I love to draw. I currently post and share my artwork online and on social media sites such as Instagram and Tumblr. Since 2014, I have also attended several conventions across the lower mainland and sold prints and products featuring my art. </p>
+  <p class="blurb">In my free time, I love to draw. I currently post and share my artwork online and on social media sites such as Instagram and Tumblr. </p>
 
   <div class="info">
     <p><b>Tools</b> Paint Tool SAI, Photoshop, Illustrator</p>
   </div>
 
-  <h3>Finished Work</h3>
+  <!-- <h3>Finished Work</h3> -->
+</div>
 
+<div class="containerImg">
+  <div class="gall">
+    <div class="column-1of3">
+      <img data-original="img/illustration/illustrationb.png" class="gallImg" alt="d painting">
+    </div>
+
+    <div class="column-2of3">
+      <img data-original="img/illustration/illustrationc.png" class="gallImg" alt="d and remy">
+    </div>
+
+    <div class="column-3of3">
+      <img data-original="img/illustration/illustrationf.png" class="gallImg" alt="remy painting">
+    </div>
+  </div>
+
+  <div class="gall">
+    <div class="column-1of2">
+      <img data-original="img/illustration/illustrationd.png" class="gallImg" alt="envy">
+    </div>
+
+    <div class="column-2of2">
+      <img data-original="img/illustration/illustrationk.png" class="gallImg" alt="commander shepard">
+    </div>
+  </div>
+
+  <div class="gall top">
+      <img data-original="img/illustration/illustratione.png" class="gallImg" alt="girls">
+  </div>
+
+  <div class="gall">
+    <div class="column-1of2">
+      <img data-original="img/illustration/illustrationa.png" class="gallImg white" alt="lieutenant uhura">
+    </div>
+
+    <div class="column-2of2">
+      <img data-original="img/illustration/illustrationh.png" class="gallImg" alt="d and remy">
+    </div>
+  </div>
+
+  <div class="gall">
+    <div class="column-1of3">
+      <img data-original="img/illustration/illustrationg.png" class="gallImg" alt="blue">
+    </div>
+
+    <div class="column-2of3">
+      <img data-original="img/illustration/illustrationj.png" class="gallImg" alt="eowyn">
+    </div>
+
+    <div class="column-3of3">
+      <img data-original="img/illustration/illustrationi.png" class="gallImg" alt="gold">
+    </div>
+  </div>
+</div>
+
+<!-- <div class="container">
   <h3>Sketches</h3>
 
   <h3>Inktober 2016</h3>
   <p>Inktober is a yearly event where artists all over the world draw something in ink for the month of October and share their artwork. I decided to draw images inspired by songs that I enjoyed.</p>
 
-  <p>Listen to the playlist <a href="https://open.spotify.com/user/tsuyuus/playlist/02aR0hpgSXFEKpwAZKyNIq"><b>here</b></a>.</p>
-
-</div> <!-- end container -->
+  <p>Listen to the playlist <a href="https://open.spotify.com/user/tsuyuus/playlist/02aR0hpgSXFEKpwAZKyNIq"><b>here</b></a>.</p> -->
 
 <a href="#top" id="toTop">to the top ^</a>
 
 <div class="footer">
   <ul>
-    <li><a href="indexhome.html">home</a></li>
-    <li><a href="">work</a></li>
-    <li><a href="about.html">about</a></li>
-    <li>&#x24B8; 2017 Danielle Ragas</li>
+    <li><a href="mailto:d.ragas@live.ca?Subject=Hi!" target="_top">d.ragas@live.ca</a></li>
+    <li>dr &#x24B8; 2017</li>
   </ul>
 </div>
 
@@ -61,6 +112,16 @@ $(function() {
 });
 </script>
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-lazyload/7.2.0/lazyload.transpiled.min.js"></script>
+<script>
+	(function () {
+		var myLazyLoad = new LazyLoad({
+			threshold: 0
+		});
+	}());
+</script>
+
+<script src="js/lightbox.js"></script>
 
 
 </body>
