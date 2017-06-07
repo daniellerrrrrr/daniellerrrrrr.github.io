@@ -106,12 +106,7 @@ margin: 0 27rem 0;}
 
 
 h2{
-  font-size: 6em;
-  font-weight: 600;
-  position:relative;
-  z-index: 100;
-  margin-top: -4rem;
- margin-left: -3rem;
+  font-size: 3em;
   margin-bottom: 0;
   text-transform: lowercase;
 }
