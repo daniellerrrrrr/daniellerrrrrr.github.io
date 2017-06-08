@@ -163,6 +163,9 @@ text-transform: uppercase;
 color: #ababab;
 }
 
+.white{border:1px solid #e1e1e1;}
+
+
 /* ---------- media queries ------------ */
 
 @media (max-width:1600px){
