@@ -165,8 +165,12 @@ h4{ /* project type */
 
 @media (max-width:1600px){
     h3{font-size: 2em;}
-
+    h4{font-size: 1.1em;}
     .container{margin: 0 17rem 0;}
+
+    p{
+      font-size: 1.3rem;
+    }
 }
 
 @media (max-width:1200px){
