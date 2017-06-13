@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600,700');
+@import url('https://fonts.googleapis.com/css?family=Rubik:900');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:400,500,700');
 
 ::selection {background: #ff003d}
 
@@ -10,7 +11,7 @@ html{
 }
 
 body{
-  font-family: 'Work Sans', sans-serif;
+  font-family: 'Roboto Mono', sans-serif;
   font-weight: 400;
   color: #000;
   padding: 0;
@@ -32,24 +33,27 @@ a{
 a:hover{color:#ff003d;}
 
 h1{
+  font-family: 'Rubik', sans-serif;
   font-size: 6.5em;
-  font-weight: 700;
   margin: 0;
   text-transform: lowercase;
 }
 
 
-h2{
+h2{ /* work page title "featured" "other" */
+  font-family: 'Rubik', sans-serif;
   font-size: 4.85em;
   margin-bottom:0.4rem;
   text-transform: lowercase;
+  margin-top: 0;
 }
 
 .links{padding: 3rem 0 0;}
 
 .links a{
+  font-family: 'Rubik', sans-serif;
   font-weight: 700;
-  font-size: 2em;
+  font-size: 2.2em;
   color: #000;
   transition: 0.1s linear;
 }
@@ -90,36 +94,37 @@ ul{
 
 .work{
   width:100%;
-  /*margin-top:-5rem;*/
   overflow: hidden;
 }
 
 .column-1of4{
   float: left;
   width:25%;
+  opacity: 0.60;
+  transition: 0.1s linear;
 }
 .column-2of4{
   float:left;
   width:25%;
+  opacity: 0.60;
+  transition: 0.1s linear;
 }
 .column-3of4{
   float:left;
   width:25%;
+  opacity: 0.60;
+  transition: 0.1s linear;
 }
 .column-4of4{
   float:left;
   width:25%;
+  opacity: 0.60;
+  transition: 0.1s linear;
 }
 
 .workImg{
   width:95%;
   margin:0 auto;
-  opacity: 0.70;
-  transition: 0.3s linear;
-}
-
-.workImg:hover{
-  opacity: 1;
 }
 
 .work:after {
@@ -128,39 +133,29 @@ ul{
     clear: both;
 }
 
-.container2{
-margin: 0 7rem 0;}
+.container2{margin: 0 7rem 0}
 
-.column-1of4:hover .workTitle{
-  opacity:1;
-}
-.column-2of4:hover .workTitle{
-  opacity:1;
-}
-.column-3of4:hover .workTitle{
-  opacity:1;
-}
-.column-4of4:hover .workTitle{
-  opacity:1;
-}
+.column-1of4:hover {opacity:1}
 
-.workTitle{
-  opacity: 0.4;
-  transition: 0.2s linear;
-}
+.column-2of4:hover {opacity:1}
+
+.column-3of4:hover {opacity:1}
+
+.column-4of4:hover {opacity:1}
 
 h3{ /* diiferent from h3 on work pages */
-  font-size: 3em;
+  font-family: 'Rubik', sans-serif;
+  font-size: 2.8em;
   margin-top:0.1rem;
   margin-bottom: 0px;
   text-transform: lowercase;
 }
 
-h4{
-font-size: 1.2em;
-margin-top: 0.5rem;
-text-transform: uppercase;
-color: #ababab;
+h4{ /* project type */
+  font-size: 1.3em;
+  margin-top: 0.3rem;
+  text-transform:lowercase;
+  color: #ababab;
 }
 
 .white{border:1px solid #e1e1e1;}
@@ -185,9 +180,9 @@ color: #ababab;
 
   .links a{font-size: 1.75em;}
 
-  .workTitle h3{font-size: 2em;}
+  h3{font-size: 2.5em;}
 
-  h4{font-size: 1em;}
+  h4{font-size: 1.75em;}
 
   .column-1of4{
     float: none;
@@ -210,8 +205,11 @@ color: #ababab;
   .column-4of4{
     float: none;
     width:100%;
-    margin: 4rem auto 6rem;
+    margin: 4rem auto 0;
   }
+
+  .last-work{margin-bottom: 10rem;}
+
 
   .work{margin-top: 3rem;}
   .workImg{width: 100%;}
@@ -226,31 +224,35 @@ color: #ababab;
     float: none;
     width:100%;
     margin: 2rem auto 0;
+    opacity: 1
   }
 
   .column-2of4{
     float: none;
     width:100%;
     margin: 4rem auto 0;
+    opacity: 1
   }
 
   .column-3of4{
     float: none;
     width:100%;
     margin: 4rem auto 0;
+    opacity: 1
   }
 
   .column-4of4{
     float: none;
     width:100%;
-    margin: 4rem auto 15rem;
+    margin: 4rem auto 0;
   }
+
+  .last-work{margin-bottom: 15rem;}
+
 
   .workImg{width: 100%;}
 
   .work{margin-top: 3rem;}
-
-  .workTitle{opacity: 1}
 
   h3{font-size: 3.5em;}
 
@@ -299,24 +301,49 @@ color: #ababab;
   .column-4of4{
     float: none;
     width:70%;
-    margin: 4rem auto 15rem;
+    margin: 4rem auto 0;
   }
+
+  .last-work{margin-bottom: 15rem;}
+
 
   .work{margin-top: 0}
 
   .workTitle{
-    opacity: 1;
     text-align: center;
   }
 
   .workImg{width: 100%;}
 
-  h3{font-size: 2.5em;}
+  h3{font-size: 2.5em}
 
   h4{font-size: 1.5em;}
 }
 
 @media (max-width:450px){
+  .column-1of4{
+    float: none;
+    width:95%;
+    margin: 2rem auto 0;
+  }
+  .column-2of4{
+    float: none;
+    width:95%;
+    margin: 4rem auto 0;
+  }
+  .column-3of4{
+    float: none;
+    width:95%;
+    margin: 4rem auto 0;
+  }
+  .column-4of4{
+    float: none;
+    width:95%;
+    margin: 4rem auto 0;
+  }
+
+  .last-work{margin-bottom: 15rem;}
+
   h1{
     font-size: 2.75em;
     text-align: center;
@@ -337,7 +364,7 @@ color: #ababab;
 
   .links a{font-size: 1.75em;}
 
-  h3{font-size: 2.5em;}
+  h3{font-size: 2em;}
 
   h4{font-size: 1.5em;}
 }
