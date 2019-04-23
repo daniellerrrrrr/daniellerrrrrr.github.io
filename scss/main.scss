@@ -459,6 +459,10 @@ footer {
   font-family: $overpass;
 }
 
+.profileImg{
+    max-width: 400px;
+    margin: 0 auto 5.5rem;
+}
 
 @media only screen and (max-width: 820px) {
   .container, .illust-container1 {

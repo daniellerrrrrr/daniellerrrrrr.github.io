@@ -165,6 +165,8 @@ footer { background: #f2f2f2; padding: 2rem; text-align: right; font-family: "Ov
 
 .about-links { margin: 5rem 0; font-size: 1.2rem; font-family: "Overpass Mono", sans-serif; }
 
+.profileImg { max-width: 400px; margin: 0 auto 5.5rem; }
+
 @media only screen and (max-width: 820px) { .container, .illust-container1 { width: 100%; padding: 0 2rem; margin: 6rem auto 2rem; }
   .illust-container2 { width: 100%; padding: 0 2rem; margin: 0 auto 2rem; }
   .index-container-1, .index-container { width: 100%; padding: 0 2rem; }
