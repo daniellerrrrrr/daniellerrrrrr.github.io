@@ -66,7 +66,7 @@ figcaption { font-family: "Overpass Mono", sans-serif; font-size: 0.9rem; margin
 /* NOTE: index page styling */
 .index-link { width: 100%; margin-bottom: 2rem; }
 
-.index-container { width: 55%; margin: 12rem auto 10rem; }
+.index-container { width: 55%; margin: 10rem auto 8rem; }
 
 .index-container h1 { font-size: 2rem; line-height: normal; }
 
